@@ -1,0 +1,258 @@
+@font-face {
+    font-family: muller;
+    src: url(muller.otf);
+}
+
+@font-face {
+    font-family: Proba;
+    src: url(Proba.ttf);
+}
+
+#content {
+    width: 95%;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.addPerson {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.addPerson .addPerson-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.addPerson .app-title {
+    text-align: center;
+    color: #777;
+}
+
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border 0.5s;
+    margin-left: 18px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: none;
+}
+
+#email {
+    width: 526px;
+}
+
+.sub {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.sub #button {
+    float: left;
+    background: #3498DB;
+    color: #ffffff;
+}
+
+.sub #clear {
+    margin-left: 20px;
+    background-color: #e82323;
+    color: #ffffff;
+}
+
+.sub #save {
+    float: left;
+    background: #3498DB;
+    color: #ffffff;
+    margin-left: 20px;
+    background: #6B8E23;
+    display: block;
+}
+.sub #save[disabled] {
+    background-color: #709087;
+}
+.sub #button[disabled] {
+  
+    background-color: #709087;
+}
+
+.sub #save:hover {
+
+    background: #617e27;
+
+}
+
+.sub #button:hover {
+    background-color: #2980B9;
+}
+.sub #button[disabled]:hover {
+    background-color:  #709087;
+}
+.sub #save[disabled]:hover {
+    background-color:  #709087;
+}
+.sub #clear:hover {
+    background: #dd0515;
+}
+
+.table {
+    width: 100%;
+    margin: 50px auto;
+}
+
+#table_1 {
+    background-color: #FFF;
+    border-collapse: collapse;
+    width: 840px;
+    max-width: 920px;
+    table-layout: fixed;
+    margin: 0 auto;
+}
+
+#table_1 th {
+    background: #b9c9fe;
+    color: #000;
+    word-wrap: break-word;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+#table_1 td {
+    word-wrap: break-word;
+    padding: 10px;
+    height: 77px;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.delete {
+    width: 10px;
+    background: #ffffff;
+    margin: 5px;
+    color: #3498DB;
+    font-size: 15px;
+}
+
+.delete:hover {
+    background-color: #ffffff;
+    color: #e32c2c;
+}
+
+.Edit {
+    width: 70px;
+    background: #3498DB;
+    margin: 5px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.Edit:hover {
+    background-color: #2980B9;
+}
+
+.back_window {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9) url(background.png) no-repeat;
+    margin-top: -20px;
+    z-index: 112;
+}
+
+.face_window {
+    margin-left: 40%;
+    margin-top: 250px;
+    background-color: #FFF;
+    width: 320px;
+    height: 240px;
+    opacity: 100%;
+    border-radius: 5px;
+    padding-top: 50px;
+    z-index: 1;
+}
+
+.font_modal {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+#button_no {
+    width: 100px;
+    background: #3498DB;
+    margin: 5px;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.buttons {
+    margin-left: 46px;
+    margin-top: 100px;
+}
+
+#button_yes {
+    width: 100px;
+
+    margin: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #e82323;
+}
+
+#button_yes:hover {
+
+    background-color: #dd0515;
+}
+
+#button_no:hover {
+
+    background: #2980B9;
+
+}
+
+
+
+button {
+
+    border: none;
+    margin: 0;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+
+}
+
+
+button.icon {
+    border-radius: 50%;
+    font-size: 24px;
+    height: 32px;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 32px;
+    width: 32px;
+    padding: 0;
+    overflow: hidden;
+    line-height: normal;
+}
+
+
+
+input:focus.ng-invalid {
+    border: 2px solid #dd0515;
+
+}

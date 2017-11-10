@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: muller;
+  src: url(muller.otf);
+}
+@font-face {
+  font-family: Proba;
+  src: url(Proba.ttf);
+}
+body {
+
+   
+    background: #3498DB;
+    margin: 0 auto;
+     
+  font-family: muller, Proba;
+        background: #3498DB;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
